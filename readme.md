@@ -8,6 +8,17 @@ O Copiloto oferece diferentes **modos de interação** para você escolher como 
 
 ---
 
+# ▶️ Como usar
+
+1. Vá até a pasta `prompts\`.  
+2. Escolha o arquivo `.md` do modo desejado (ex.: `prompt-ask.md`).  
+3. Copie o conteúdo para o Copiloto e ative o modo correspondente.  
+4. Siga as instruções do prompt para interagir corretamente.  
+
+Dica: use **Ask** para entender, **Plan** para estruturar, **Edit** para modificar, **Agent** para executar tarefas grandes e **Study** para aprender conceitos.
+
+---
+
 # ❓ Ask
 O modo **Ask** é para fazer perguntas e entender coisas, **sem alterar seu código**. Você pode perguntar sobre um arquivo específico, um erro, uma função, uma stack trace ou até conceitos gerais.
 
@@ -25,13 +36,12 @@ Ideal para:
 - ajustes de lógica
 - melhoria de performance
 - mudança de estilo
-- conversão de linguagem
 - adicionar logs
 - tratar erros
 
 Aqui o foco é: **“pegue isso que já existe e transforme”**.
 
-📄 **Prompt:** [prompts/prompt-edit.md](prompts/prompt-edit.md)
+📄 **Prompt:** [prompts/prompt-endpoint.md](prompts/prompt-endpoint.md)
 
 ---
 
@@ -73,9 +83,22 @@ Funciona quase como um **tutor particular**.
 
 ---
 
+# 🧩 Extras
+Além dos modos principais, há prompts auxiliares para configuração e identidade:
+
+- **TSNode** → ajustes de configuração para TypeScript + ESM  
+  📄 **Prompt:** [prompts/prompt-tsnode.md](prompts/prompt-tsnode.md)
+
+- **User** → identidade e preferências do usuário  
+  📄 **Prompt:** [prompts/prompt-user.md](prompts/prompt-user.md)
+
+---
+
 # 🧠 Resumo mental rápido
 - **Ask** → entender  
 - **Plan** → planejar antes de agir  
 - **Edit** → mudar código  
 - **Agent** → executar tarefas grandes sozinho  
 - **Study** → entendimento ativo  
+- **TSNode** → configuração TS/ESM  
+- **User** → identidade do usuário
